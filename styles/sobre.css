@@ -1,0 +1,21 @@
+.apresentacao {
+    margin: 4.5em 0;
+}
+
+.apresentacao__sobre {
+    color: var(--vermelho-destaque);
+    font-weight: 600;
+}
+
+.apresentacao__sobre-subtitulo {
+    color: var(--cor-titulo);
+    font-weight: 600;
+    font-size: 48px;
+    padding: 0.5em 0;
+}
+
+.apresentacao__texto {
+    color: var(--cor-texto);
+    font-size: 20px;
+    margin: 0 17em;
+}
