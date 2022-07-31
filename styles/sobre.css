@@ -1,5 +1,6 @@
-.apresentacao {
+.apresentacao__main {
     margin: 4.5em 0;
+    text-align: center;
 }
 
 .apresentacao__sobre {
@@ -18,4 +19,31 @@
     color: var(--cor-texto);
     font-size: 20px;
     margin: 0 17em;
+}
+
+.apresentacao__detalhes-titulo {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--vermelho-destaque);
+}
+
+.apresentacao__detalhes-subtitulo {
+    font-weight: 500;
+    font-size: 18px;
+    margin: 1em 0 0.5em 0;
+}
+
+.apresentacao__detalhes__texto {
+    color: var(--cor-texto);
+}
+
+.apresentacao__detalhes {
+    display: flex;
+    justify-content: space-around;
+    margin: 3em 7em;
+}
+
+.apresentacao__lista {
+    width: 25%;
+    margin: 0 1.5em;
 }
