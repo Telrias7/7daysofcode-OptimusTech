@@ -1,6 +1,6 @@
 .vagas__main {
     text-align: center;
-    margin: 3em 0;
+    margin: 6em 0 3em 0;
 }
 
 .vagas__sobre {
@@ -28,4 +28,42 @@
     padding: 1em 0 3em 0;
 }
 
+.vaga {
+    border-radius: 16px;
+    border: 1px solid #EAECF0;
+    width: 50%;
+    padding: 1em 0 0.5em 1em;
+    margin-bottom: 1em;
+}
 
+.vagas-areas {
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cor-titulo);
+    margin: 2em 0 1em 0;
+    align-self: flex-start;
+    padding-left: 18em;
+}
+
+.titulo-vaga {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cor-titulo);
+}
+
+.informacoes span {
+    font-weight: 500;
+    color: var(--cor-texto);
+    margin: 1em 0;
+}
+
+.vagas-abertas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.informacoes {
+    display: flex;
+    gap: 1em;
+}
