@@ -2,6 +2,7 @@
 @import url("styles/sobre.css");
 @import url("styles/vagas.css");
 @import url("styles/opiniao.css");
+@import url("styles/rodape.css");
 
 :root {
     --fonte-principal: "Inter";
